@@ -16,7 +16,7 @@
 title: MatJek
 description: > # this means to ignore newlines until "baseurl:"
   Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
-baseurl: "/matjek"
+baseurl: "/blog"
 url: "https://shawnteoh.github.io"
 permalink: /:year/:month/:day/:title
 repository: ShawnTeoh/matjek
@@ -33,7 +33,7 @@ disqus_shortname: "matjek"
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
