@@ -7,4 +7,3 @@ gem 'github-pages', versions['github-pages']
 gem "jekyll"
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate' 
-gem 'jekyll-remote-theme'
