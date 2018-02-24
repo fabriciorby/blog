@@ -20,11 +20,10 @@ As cifras clássicas podem ser divididas em técnicas de:
   * Polialfabética
 * Transposição
 
-Finalmente, o assunto aqui não será um grande estudo sobre a criptologia em si, mas sim, apresentar de forma clara e sucinta as principais formas de criptografia clássica.
+Se utilizadas isoladamente, as cifras de transposição apresentam as mesmas vulnerabilidades das cifras de substituição. Entretanto, quando usadas em conjunto, podem gerar uma cifra fortalecida, e que criptoanalistas não quebrariam tão facilmente.
 
 ### Técnica de Substituição
 - - -
-É uma técnica que consiste em trocar as letras de uma mensagem por outra.
 
 #### Monoalfabética
 
@@ -32,31 +31,32 @@ Finalmente, o assunto aqui não será um grande estudo sobre a criptologia em si
 
 A encriptação simplesmente consiste em utilizar uma tabela com símbolos e substituir cada letra da mensagem por seu símbolo correspondente.
 
-##### A Cifra de César
+###### A Cifra de César
 
 O mais famigerado exemplo de cifra de substituição é a cifra de César.
 
-Segue abaixo a tabela de associação, onde o alfabeto é rotacionado à esquerda de três posições, neste caso, _três_ é a _chave_:
+Nela, é necessário uma chave, na qual o alfabeto se baseia e então é rotacionado.
 
-A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z 
-- | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - 
-D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | A | B | C |
-
-Ao substituirmos as letras a partir da _chave_ obtemos a versão encriptada da mensagem, e se quisermos decriptar é só fazermos o processo inverso.
+No exemplo abaixo o alfabeto foi rotacionado à esquerda com base em sua chave.
 
 ```
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+- - - - - - - - - - - - - - - - - - - - - - - - - -
+D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+
 Chave:      3
 Normal:     A LIGEIRA RAPOSA MARROM SALTOU SOBRE O CACHORRO CANSADO
 Encriptado: D OLJHLUD UDSRVD PDUURP VDOWRX VREUH R FDFKRUUR FDQVDGR
 ```
-
+Ao substituirmos as letras a partir da _chave_ obtemos a versão encriptada da mensagem, e se quisermos decriptar é só fazermos o processo inverso.
+- - -
 #### Polialfabética
 
 Nesse tipo de cifra de substituição são utilizados vários alfabetos escritos em uma grande tabela.
 
-##### Cifra de Vigenère
+###### Cifra de Vigenère
 
-A cifra de Vigenère nada mais é do que 26 cifras de César, com base em uma sequência de letras pré-definidas que forma uma chave.
+A cifra de Vigenère nada mais é do que 26 cifras de César, com base em uma sequência de caracteres pré-definidos que forma uma chave.
 
 ```
   | A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
@@ -101,8 +101,6 @@ Podemos ver na tabela, ao buscar o 'A' do texto em relação ao 'L' da chave, ob
 
 ### Técnica de Transposição
 - - -
-É uma técnica que consiste em trocar os caracteres da mensagem de lugar.
-
 #### Cifra das Colunas
 
 A cifra das colunas é bastante rudimentar, tudo que precisamos é de uma mensagem a ser decifrada e uma chave, que é o número de linhas que a matriz terá.
@@ -119,7 +117,7 @@ Cifra: FAOSMDCEOP UMDFOEORSD JTOOSSBTXQ
 Sabendo a chave, é só dividir a cifra recebida pela quantidade correta de linhas, e então poderemos ver a mensagem escrita lendo-a através das colunas.
 
 Note que podem haver caracteres aleatórios para preencher espaço após o final da mensagem.
-
+- - -
 #### Transposição de Colunas
 
 ```
@@ -144,7 +142,4 @@ Sabendo que nos foi enviado na ordem alfabética AILMO, basta ordenar as colunas
 
 Note que podem haver caracteres aleatórios para preencher espaço após o final da mensagem.
 
-#### Observação
-
-Se utilizadas isoladamente, as cifras de transposição apresentam as mesmas vulnerabilidades das cifras de substituição. Entretanto, quando usadas em conjunto, podem gerar uma cifra fortalecida, e que criptoanalistas não quebrariam tão facilmente.
-
+- - -
