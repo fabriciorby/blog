@@ -6,8 +6,6 @@ categories: curiosidades
 tags: criptografia
 ---
 
-# Criptografia Clássica
-
 A origem da palavra criptografia vem do grego, _kryptós_ (escondido) e _gráphein_ (escrita).
 
 Apesar de ser muito utilizada nos dias de hoje na área de tecnologia, sua origem é antiga e estima-se que deu-se início há 4500 anos atrás, em hieróglifos esculpitos no Antigo Egito.
@@ -24,17 +22,17 @@ As cifras clássicas podem ser divididas em técnicas de:
 
 Finalmente, o assunto aqui não será um grande estudo sobre a criptologia em si, mas sim, apresentar de forma clara e sucinta as principais formas de criptografia clássica.
 
-## Técnica de Substituição
+### Técnica de Substituição
 
 É uma técnica que consiste em trocar as letras de uma mensagem por outra.
 
-### Monoalfabética
+#### Monoalfabética
 
 É a forma mais básica de criptografia.
 
 A encriptação simplesmente consiste em utilizar uma tabela com símbolos e substituir cada letra da mensagem por seu símbolo correspondente.
 
-#### A Cifra de César
+##### A Cifra de César
 
 O mais famigerado exemplo de cifra de substituição é a cifra de César.
 
@@ -52,9 +50,11 @@ Normal:     A LIGEIRA RAPOSA MARROM SALTOU SOBRE O CACHORRO CANSADO
 Encriptado: D OLJHLUD UDSRVD PDUURP VDOWRX VREUH R FDFKRUUR FDQVDGR
 ```
 
-### Polialfabética
+#### Polialfabética
 
-### Cifra de Vigenère
+Nesse tipo de cifra de substituição são utilizados vários alfabetos escritos em uma grande tabela.
+
+#### Cifra de Vigenère
 
 A cifra de Vigenère nada mais é do que 26 cifras de César, com base em uma sequência de letras pré-definidas que forma uma chave.
 
@@ -99,11 +99,11 @@ No caso, a chave é LIMAO, que se repete até quando necessário para que se cif
 
 Podemos ver na tabela, ao buscar o 'A' do texto em relação ao 'L' da chave, obtemos 'L'. E assim sucessivamente.
 
-## Técnica de Transposição
+### Técnica de Transposição
 
 É uma técnica que consiste em trocar os caracteres da mensagem de lugar.
 
-### Cifra das Colunas
+#### Cifra das Colunas
 
 A cifra das colunas é bastante rudimentar, tudo que precisamos é de uma mensagem a ser decifrada e uma chave, que é o número de linhas que a matriz terá.
 
@@ -120,7 +120,7 @@ Sabendo a chave, é só dividir a cifra recebida pela quantidade correta de linh
 
 Note que podem haver caracteres aleatórios para preencher espaço após o final da mensagem.
 
-### Transposição de Colunas
+#### Transposição de Colunas
 
 ```
 L I M A O
@@ -144,7 +144,7 @@ Sabendo que nos foi enviado na ordem alfabética AILMO, basta ordenar as colunas
 
 Note que podem haver caracteres aleatórios para preencher espaço após o final da mensagem.
 
-### Observação
+#### Observação
 
 Se utilizadas isoladamente, as cifras de transposição apresentam as mesmas vulnerabilidades das cifras de substituição. Entretanto, quando usadas em conjunto, podem gerar uma cifra fortalecida, e que croptoanalistas não quebrariam tão facilmente.
 
