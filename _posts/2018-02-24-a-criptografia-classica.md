@@ -23,7 +23,7 @@ As cifras clássicas podem ser divididas em técnicas de:
 Finalmente, o assunto aqui não será um grande estudo sobre a criptologia em si, mas sim, apresentar de forma clara e sucinta as principais formas de criptografia clássica.
 
 ### Técnica de Substituição
-
+- - -
 É uma técnica que consiste em trocar as letras de uma mensagem por outra.
 
 #### Monoalfabética
@@ -54,7 +54,7 @@ Encriptado: D OLJHLUD UDSRVD PDUURP VDOWRX VREUH R FDFKRUUR FDQVDGR
 
 Nesse tipo de cifra de substituição são utilizados vários alfabetos escritos em uma grande tabela.
 
-#### Cifra de Vigenère
+##### Cifra de Vigenère
 
 A cifra de Vigenère nada mais é do que 26 cifras de César, com base em uma sequência de letras pré-definidas que forma uma chave.
 
@@ -100,7 +100,7 @@ No caso, a chave é LIMAO, que se repete até quando necessário para que se cif
 Podemos ver na tabela, ao buscar o 'A' do texto em relação ao 'L' da chave, obtemos 'L'. E assim sucessivamente.
 
 ### Técnica de Transposição
-
+- - -
 É uma técnica que consiste em trocar os caracteres da mensagem de lugar.
 
 #### Cifra das Colunas
@@ -146,5 +146,5 @@ Note que podem haver caracteres aleatórios para preencher espaço após o final
 
 #### Observação
 
-Se utilizadas isoladamente, as cifras de transposição apresentam as mesmas vulnerabilidades das cifras de substituição. Entretanto, quando usadas em conjunto, podem gerar uma cifra fortalecida, e que croptoanalistas não quebrariam tão facilmente.
+Se utilizadas isoladamente, as cifras de transposição apresentam as mesmas vulnerabilidades das cifras de substituição. Entretanto, quando usadas em conjunto, podem gerar uma cifra fortalecida, e que criptoanalistas não quebrariam tão facilmente.
 
