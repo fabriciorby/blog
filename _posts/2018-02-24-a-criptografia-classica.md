@@ -6,6 +6,8 @@ categories: curiosidades
 tags: criptografia
 ---
 
+#### Introdução
+
 A origem da palavra criptografia vem do grego, _kryptós_ (escondido) e _gráphein_ (escrita).
 
 Apesar de ser muito utilizada nos dias de hoje na área de tecnologia, sua origem é antiga e estima-se que deu-se início há 4500 anos atrás, em hieróglifos esculpitos no Antigo Egito.
@@ -31,7 +33,7 @@ Se utilizadas isoladamente, as cifras de transposição apresentam as mesmas vul
 
 A encriptação simplesmente consiste em utilizar uma tabela com símbolos e substituir cada letra da mensagem por seu símbolo correspondente.
 
-###### A Cifra de César
+##### A Cifra de César
 
 O mais famigerado exemplo de cifra de substituição é a cifra de César.
 
@@ -54,7 +56,7 @@ Ao substituirmos as letras a partir da _chave_ obtemos a versão encriptada da m
 
 Nesse tipo de cifra de substituição são utilizados vários alfabetos escritos em uma grande tabela.
 
-###### Cifra de Vigenère
+##### Cifra de Vigenère
 
 A cifra de Vigenère nada mais é do que 26 cifras de César, com base em uma sequência de caracteres pré-definidos que forma uma chave.
 
