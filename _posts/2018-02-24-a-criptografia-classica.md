@@ -6,15 +6,9 @@ categories: curiosidades
 tags: criptografia
 ---
 
-#### Introdução
+Apesar de ser muito utilizada nos dias de hoje na área de tecnologia caso você deseje o mínimo de proteção ao navegar na internet, a criptografia tem origem antiga e estima-se que deu-se início há 4500 anos atrás, em hieróglifos esculpitos no Antigo Egito. A origem da palavra criptografia vem do grego, _kryptós_ (escondido) e _gráphein_ (escrita).
 
-A origem da palavra criptografia vem do grego, _kryptós_ (escondido) e _gráphein_ (escrita).
-
-Apesar de ser muito utilizada nos dias de hoje na área de tecnologia, sua origem é antiga e estima-se que deu-se início há 4500 anos atrás, em hieróglifos esculpitos no Antigo Egito.
-
-Com o desenvolvimento da criptografia, houve também o desenvolvimento da _criptoanálise_, que é o estudo que procura decifrar códigos gerados a partir de técnicas de criptografia.
-
-Da fusão da criptografia com a criptoanálise forma-se a _criptologia_.
+Com o desenvolvimento da criptografia, houve também o desenvolvimento da _criptoanálise_, que é o estudo que procura decifrar códigos gerados a partir de técnicas de criptografia. Da fusão da criptografia com a criptoanálise forma-se a _criptologia_.
 
 As cifras clássicas podem ser divididas em técnicas de:
 * Substituição
